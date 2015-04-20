@@ -6,15 +6,42 @@
     <script type="text/javascript" src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="http://d3js.org/d3.geo.projection.v0.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="http://d3js.org/topojson.v1.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="d3.tip.js" charset="utf-8"></script>
     <script tyoe="text/javascript" src="bower_components/lodash/lodash.min.js"></script>
     <style>
-      .fylke:hover {
-        fill: rgb(0,0,125);
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      body > div {
+        padding: 10px;
+        float: left;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .svg {
+        border: 1px solid rgb(215,215,215);
+      }
+      .tooltip {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid black;
+        padding: 5px;
+        margin: 15px;
+        background-color: white;
+        border-radius: 5px;
       }
       .background {
         fill: none;
         pointer-events: all;
+      }
+      .feature {
+        stroke: white;
+        cursor: pointer;
       }
     </style>
   </head>
