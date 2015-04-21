@@ -1,0 +1,19 @@
+{
+  "name": "valg2015",
+  "version": "0.0.0",
+  "homepage": "https://github.com/existemi/d3-map-norway",
+  "authors": [
+    "Roy Viggo Larsen <roy@existemi.no>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.7.0"
+  }
+}
